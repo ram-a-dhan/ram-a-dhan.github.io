@@ -128,6 +128,91 @@ content h1 {
 	text-align: justify;
 }
 
+#skilltable tr td {
+	border: 0px solid #18ff18;
+	height: calc(36px - 2px);
+	font-size: 24px;
+}
+
+.col1 {
+	width: 75px;
+	text-align: left;
+}
+
+.col2 {
+	/*min-width: calc(360px - 75px - 100px);*/
+	/*max-width: calc(480px - 75px - 100px);*/
+	width: calc(480px - 75px - 100px);
+}
+
+.col3 {
+	width: 100px;
+	text-align: right;
+}
+
+.skillbar {
+	width: 100%; height: 100%;
+	border: 1px solid #18ff18;
+}
+
+.skill {
+	height: 100%;
+	background-color: #18ff18;
+}
+
+#shtml {
+	width: 90%;
+}
+
+#scss {
+	width: 80%;
+}
+
+#sphp {
+	width: 60%;
+}
+
+#sjs {
+	width: 30%;
+}
+
+#exps ul,
+#factions ul {
+	list-style: none;
+	padding-left: 10px;
+}
+
+#exps ul li,
+#factions ul li {
+	margin: 20px 0px;
+	background-image: url("../img/circle-16.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+
+}
+
+#exps ul li h2,
+#factions ul li h2 {
+	line-height: 21px;
+}
+
+.timeline {
+	width: 0px;
+	border: 2px solid #18ff18;
+	position: relative;
+	top: -280px;
+	left: 16px;
+}
+
+#expsline {
+	height: 214px;
+}
+
+#factionsline {
+	height: 214px;
+}
+
 .clear {
 	clear: both;
 }
