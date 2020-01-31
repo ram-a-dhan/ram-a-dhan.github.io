@@ -33,7 +33,7 @@ content {
 }
 
 header::-webkit-scrollbar,
-content::-webkit-scrollbar, {
+content::-webkit-scrollbar {
   display: none;
 }
 
@@ -201,15 +201,17 @@ content h1 {
 	width: 0px;
 	border: 2px solid #18ff18;
 	position: relative;
-	top: -280px;
+	/* top: -280px; */
 	left: 16px;
 }
 
 #expsline {
+	top: -275px;
 	height: 214px;
 }
 
 #factionsline {
+	top: -260px;
 	height: 214px;
 }
 
@@ -224,6 +226,10 @@ nav {
 	bottom: 0px;
 	z-index: 1;
 	box-shadow: 0px -15px 100px 15px inset #000;
+}
+
+nav#home {
+	box-shadow: none;
 }
 
 .navbar {
