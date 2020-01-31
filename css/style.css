@@ -229,7 +229,7 @@ nav {
 }
 
 nav#home {
-	box-shadow: none;
+	box-shadow: none !important;
 }
 
 .navbar {
